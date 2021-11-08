@@ -1,0 +1,6 @@
+framework module Pods_YFLoginModule_Example {
+  umbrella header "Pods-YFLoginModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16BC67BC225936F9AA079CD38044FDED /* PrepareViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9D4AF92B457F9E2025445451CBE19F /* PrepareViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E998B14CFD819D3AD3356FD2F4A4BF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2B5A8227D5EC7DB95BE00CE39180E13C /* YFLoginModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5823325AE211BE72A3D69E50D0CD839B /* YFLoginModule-dummy.m */; };
+		34B97DEEE1219D29D459AD7752425BDD /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9EFFC1E964F6A17257E6C2970CB1D9 /* LoginViewController.xib */; };
+		3AC0E31B28BF17820E090D5F1FD701B1 /* PrepareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E1073CF90DDCF5E977EB2BE519E5B5 /* PrepareViewController.m */; };
+		3BBC4DCE00E5E1111D09378F1378235E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5565B25036206671B88FE7A26C8836C1 /* Pods-YFLoginModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 096E9A34A494F7F76D37E1BDD40675DE /* Pods-YFLoginModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E846F801ECA34CAD832A504071B763 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF533767C7EF43C7F297910238AA13 /* Tools.m */; };
+		6842126940EE3F3E9ACCC8F3BA61411F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB50E4AD2C91D7DFF681F9DD1EAE61D /* LoginViewController.m */; };
+		7FCC75C2A8AC9822D1C99AAB5BCA15B6 /* YFLoginModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FC1D6587690C9DB4EF87A35CAB81CC /* YFLoginModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A4853BA641EF4D3D8A7E96E77C0AC02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9478A251416E8C2CCC8352B427D1CECF /* Pods-YFLoginModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E50EFCF9D50378759668DC28DE6A484 /* Pods-YFLoginModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0051283578B33531B88466309FE340 /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC4E858FE7464115A69219EAD7E3BAC /* LoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC295703E84FC4A85A5AFE8476717703 /* Pods-YFLoginModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9E9EA462DEDF7ACFAE7B6908F1649 /* Pods-YFLoginModule_Tests-dummy.m */; };
+		D89A7B39CCB2CCA79F4A9728200FCBB2 /* YFLoginModule-YFLoginModule in Resources */ = {isa = PBXBuildFile; fileRef = F4A6ED3B5C9B1AE61DF0CCB861271D66 /* YFLoginModule-YFLoginModule */; };
+		DA43A60665154243365CEF46242FD20A /* Pods-YFLoginModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D001817E74A96643B71B724804D1AA /* Pods-YFLoginModule_Example-dummy.m */; };
+		E1D47E5C751AD53CD9B568CE56BAD0C5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F1938552FB20C28FB1EC5DB9DDC14E /* Media.xcassets */; };
+		E1F04370960569563CAE695A9260E065 /* Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F80B66AE1AEF4BD810C41C63C95E943 /* Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB2DB97E8F4EE1FE32DA9B77AA653459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846BEF9B46BFCE9B397657F7D479D770;
+			remoteInfo = YFLoginModule;
+		};
+		C03E6E0886E32D161044D17C0D2EC312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A47DA6FCF929E4AD997386C8E28FEF7;
+			remoteInfo = "Pods-YFLoginModule_Example";
+		};
+		E3B4E7920D884CC4194009C9579B06C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9066F52DEAE43D7F947CC38D162349B;
+			remoteInfo = "YFLoginModule-YFLoginModule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CE0C0B7669513699FE9B14C3B8AE11 /* Pods-YFLoginModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YFLoginModule_Example.modulemap"; sourceTree = "<group>"; };
+		07ED4EADEF10CB09E9086B7016704232 /* YFLoginModule */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YFLoginModule; path = YFLoginModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		096E9A34A494F7F76D37E1BDD40675DE /* Pods-YFLoginModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFLoginModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		10AA6D6D6FB0565F5C1AB2E34E53FBC1 /* Pods-YFLoginModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFLoginModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1D9EFFC1E964F6A17257E6C2970CB1D9 /* LoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoginViewController.xib; path = YFLoginModule/Assets/LoginViewController.xib; sourceTree = "<group>"; };
+		2097B3D7486667533A2DFADF97E220DB /* Pods-YFLoginModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFLoginModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		270F211F0ECE86BD4CC14992DD70E544 /* YFLoginModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YFLoginModule-Info.plist"; sourceTree = "<group>"; };
+		2C843367C626A30EA8CDDF51176DA222 /* YFLoginModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YFLoginModule.release.xcconfig; sourceTree = "<group>"; };
+		31BF533767C7EF43C7F297910238AA13 /* Tools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Tools.m; path = YFLoginModule/Classes/Login/Tools.m; sourceTree = "<group>"; };
+		31D7B8748B42ED67B0AB915EA5DA5536 /* Pods-YFLoginModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YFLoginModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3261F55EF4EBA77B77624A17DB8FD735 /* Pods-YFLoginModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFLoginModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		344B3C130BA38F147B36325437EF673E /* Pods-YFLoginModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFLoginModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3947CD0C31EA03BF93671CBFFD23F8D7 /* Pods-YFLoginModule_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YFLoginModule_Tests"; path = Pods_YFLoginModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D001817E74A96643B71B724804D1AA /* Pods-YFLoginModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFLoginModule_Example-dummy.m"; sourceTree = "<group>"; };
+		46F1938552FB20C28FB1EC5DB9DDC14E /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = YFLoginModule/Assets/Media.xcassets; sourceTree = "<group>"; };
+		47FE5BB4F3AD3107F86ECA070E0F5363 /* YFLoginModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YFLoginModule.modulemap; sourceTree = "<group>"; };
+		49B94D2D22FFB94F4D452B38515CA44A /* Pods-YFLoginModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFLoginModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B23F485AD9A08211DD30013BD99B240 /* Pods-YFLoginModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFLoginModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D7AD17629C58953D2CA73DB6A3272C6 /* Pods-YFLoginModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YFLoginModule_Tests.modulemap"; sourceTree = "<group>"; };
+		4D949C18C4DAFC6A2C9486957041C9A6 /* ResourceBundle-YFLoginModule-YFLoginModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YFLoginModule-YFLoginModule-Info.plist"; sourceTree = "<group>"; };
+		4F27C146D6C9D495EC077B3A7A72DE26 /* Pods-YFLoginModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFLoginModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		5823325AE211BE72A3D69E50D0CD839B /* YFLoginModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YFLoginModule-dummy.m"; sourceTree = "<group>"; };
+		5F80B66AE1AEF4BD810C41C63C95E943 /* Tools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tools.h; path = YFLoginModule/Classes/Login/Tools.h; sourceTree = "<group>"; };
+		70F9E9EA462DEDF7ACFAE7B6908F1649 /* Pods-YFLoginModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YFLoginModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		72694D85FD50B9FA846DE601D7204A48 /* Pods-YFLoginModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YFLoginModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72D8AF4F353810CE7045E6701119416C /* Pods-YFLoginModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YFLoginModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		86B296A3C5DD2E6189BEB67659AEE833 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		86F5A7EE17F4B386E2AF56F8DACA7285 /* Pods-YFLoginModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YFLoginModule_Example-Info.plist"; sourceTree = "<group>"; };
+		8AC3EF5D4A49FDAF684FB34C0480EEFB /* Pods-YFLoginModule_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YFLoginModule_Example"; path = Pods_YFLoginModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E50EFCF9D50378759668DC28DE6A484 /* Pods-YFLoginModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YFLoginModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		9A61A613BF791B8C001530FA1368F772 /* YFLoginModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YFLoginModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9E1073CF90DDCF5E977EB2BE519E5B5 /* PrepareViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PrepareViewController.m; path = YFLoginModule/Classes/Login/PrepareViewController.m; sourceTree = "<group>"; };
+		DBB50E4AD2C91D7DFF681F9DD1EAE61D /* LoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = YFLoginModule/Classes/Login/LoginViewController.m; sourceTree = "<group>"; };
+		E1FC1D6587690C9DB4EF87A35CAB81CC /* YFLoginModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFLoginModule-umbrella.h"; sourceTree = "<group>"; };
+		E97312B67CAA876A761247C4DC6D9C77 /* YFLoginModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YFLoginModule-prefix.pch"; sourceTree = "<group>"; };
+		EE7E2DC4A30324E6FF31491487BB0EF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F4A6ED3B5C9B1AE61DF0CCB861271D66 /* YFLoginModule-YFLoginModule */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "YFLoginModule-YFLoginModule"; path = YFLoginModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F150217D003FFE9EFA47E012F2CC59 /* YFLoginModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YFLoginModule.debug.xcconfig; sourceTree = "<group>"; };
+		FD9D4AF92B457F9E2025445451CBE19F /* PrepareViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PrepareViewController.h; path = YFLoginModule/Classes/Login/PrepareViewController.h; sourceTree = "<group>"; };
+		FDC4E858FE7464115A69219EAD7E3BAC /* LoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = YFLoginModule/Classes/Login/LoginViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CA08E5D0870A7998D9C29FD207887F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4853BA641EF4D3D8A7E96E77C0AC02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2F4992B39CE21ECFAC55C447E6494B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76FE5391784850BC1FB1B842D6C513F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBC4DCE00E5E1111D09378F1378235E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F23F0B8CFD346843F40A21A9338E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E998B14CFD819D3AD3356FD2F4A4BF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EF1FA17E708E323A80279ADE18CAAD /* YFLoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				FDC4E858FE7464115A69219EAD7E3BAC /* LoginViewController.h */,
+				DBB50E4AD2C91D7DFF681F9DD1EAE61D /* LoginViewController.m */,
+				1D9EFFC1E964F6A17257E6C2970CB1D9 /* LoginViewController.xib */,
+				46F1938552FB20C28FB1EC5DB9DDC14E /* Media.xcassets */,
+				FD9D4AF92B457F9E2025445451CBE19F /* PrepareViewController.h */,
+				B9E1073CF90DDCF5E977EB2BE519E5B5 /* PrepareViewController.m */,
+				5F80B66AE1AEF4BD810C41C63C95E943 /* Tools.h */,
+				31BF533767C7EF43C7F297910238AA13 /* Tools.m */,
+				701FB3B1C52DDC15DDC57B6265AADD02 /* Pod */,
+				7863CD11DC68EC2B1C26FCD9A8C762C4 /* Support Files */,
+			);
+			name = YFLoginModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		24642B8C0C17A368A4E87A1443606A8D /* Pods-YFLoginModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				07CE0C0B7669513699FE9B14C3B8AE11 /* Pods-YFLoginModule_Example.modulemap */,
+				344B3C130BA38F147B36325437EF673E /* Pods-YFLoginModule_Example-acknowledgements.markdown */,
+				2097B3D7486667533A2DFADF97E220DB /* Pods-YFLoginModule_Example-acknowledgements.plist */,
+				41D001817E74A96643B71B724804D1AA /* Pods-YFLoginModule_Example-dummy.m */,
+				31D7B8748B42ED67B0AB915EA5DA5536 /* Pods-YFLoginModule_Example-frameworks.sh */,
+				86F5A7EE17F4B386E2AF56F8DACA7285 /* Pods-YFLoginModule_Example-Info.plist */,
+				8E50EFCF9D50378759668DC28DE6A484 /* Pods-YFLoginModule_Example-umbrella.h */,
+				3261F55EF4EBA77B77624A17DB8FD735 /* Pods-YFLoginModule_Example.debug.xcconfig */,
+				10AA6D6D6FB0565F5C1AB2E34E53FBC1 /* Pods-YFLoginModule_Example.release.xcconfig */,
+			);
+			name = "Pods-YFLoginModule_Example";
+			path = "Target Support Files/Pods-YFLoginModule_Example";
+			sourceTree = "<group>";
+		};
+		48C063E40B535D6D4253EBE0ECD38BA9 /* Pods-YFLoginModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7AD17629C58953D2CA73DB6A3272C6 /* Pods-YFLoginModule_Tests.modulemap */,
+				72694D85FD50B9FA846DE601D7204A48 /* Pods-YFLoginModule_Tests-acknowledgements.markdown */,
+				49B94D2D22FFB94F4D452B38515CA44A /* Pods-YFLoginModule_Tests-acknowledgements.plist */,
+				70F9E9EA462DEDF7ACFAE7B6908F1649 /* Pods-YFLoginModule_Tests-dummy.m */,
+				4F27C146D6C9D495EC077B3A7A72DE26 /* Pods-YFLoginModule_Tests-Info.plist */,
+				096E9A34A494F7F76D37E1BDD40675DE /* Pods-YFLoginModule_Tests-umbrella.h */,
+				4B23F485AD9A08211DD30013BD99B240 /* Pods-YFLoginModule_Tests.debug.xcconfig */,
+				72D8AF4F353810CE7045E6701119416C /* Pods-YFLoginModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-YFLoginModule_Tests";
+			path = "Target Support Files/Pods-YFLoginModule_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		701FB3B1C52DDC15DDC57B6265AADD02 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				86B296A3C5DD2E6189BEB67659AEE833 /* LICENSE */,
+				EE7E2DC4A30324E6FF31491487BB0EF4 /* README.md */,
+				9A61A613BF791B8C001530FA1368F772 /* YFLoginModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7863CD11DC68EC2B1C26FCD9A8C762C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D949C18C4DAFC6A2C9486957041C9A6 /* ResourceBundle-YFLoginModule-YFLoginModule-Info.plist */,
+				47FE5BB4F3AD3107F86ECA070E0F5363 /* YFLoginModule.modulemap */,
+				5823325AE211BE72A3D69E50D0CD839B /* YFLoginModule-dummy.m */,
+				270F211F0ECE86BD4CC14992DD70E544 /* YFLoginModule-Info.plist */,
+				E97312B67CAA876A761247C4DC6D9C77 /* YFLoginModule-prefix.pch */,
+				E1FC1D6587690C9DB4EF87A35CAB81CC /* YFLoginModule-umbrella.h */,
+				F5F150217D003FFE9EFA47E012F2CC59 /* YFLoginModule.debug.xcconfig */,
+				2C843367C626A30EA8CDDF51176DA222 /* YFLoginModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YFLoginModule";
+			sourceTree = "<group>";
+		};
+		7A33DA2066096D10A2F78A85522CD18A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24642B8C0C17A368A4E87A1443606A8D /* Pods-YFLoginModule_Example */,
+				48C063E40B535D6D4253EBE0ECD38BA9 /* Pods-YFLoginModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		810C7E6BF66F43A4BC5249578639C4C2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04EF1FA17E708E323A80279ADE18CAAD /* YFLoginModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B828851FEBEA31FC47CB820CDFBAA1C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AC3EF5D4A49FDAF684FB34C0480EEFB /* Pods-YFLoginModule_Example */,
+				3947CD0C31EA03BF93671CBFFD23F8D7 /* Pods-YFLoginModule_Tests */,
+				07ED4EADEF10CB09E9086B7016704232 /* YFLoginModule */,
+				F4A6ED3B5C9B1AE61DF0CCB861271D66 /* YFLoginModule-YFLoginModule */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				810C7E6BF66F43A4BC5249578639C4C2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B828851FEBEA31FC47CB820CDFBAA1C5 /* Products */,
+				7A33DA2066096D10A2F78A85522CD18A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		675517934ED36C6CC480195E12C1BBE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9478A251416E8C2CCC8352B427D1CECF /* Pods-YFLoginModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1AE9F16741E7261E0FC8951D922FC28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5565B25036206671B88FE7A26C8836C1 /* Pods-YFLoginModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E8082BC0E6C372C699381E4E937B41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0051283578B33531B88466309FE340 /* LoginViewController.h in Headers */,
+				16BC67BC225936F9AA079CD38044FDED /* PrepareViewController.h in Headers */,
+				E1F04370960569563CAE695A9260E065 /* Tools.h in Headers */,
+				7FCC75C2A8AC9822D1C99AAB5BCA15B6 /* YFLoginModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A47DA6FCF929E4AD997386C8E28FEF7 /* Pods-YFLoginModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823FFE9D7D89E990D294D428846DA1DF /* Build configuration list for PBXNativeTarget "Pods-YFLoginModule_Example" */;
+			buildPhases = (
+				675517934ED36C6CC480195E12C1BBE0 /* Headers */,
+				CC2C3DEA88A12F279DEF127956017064 /* Sources */,
+				F6F23F0B8CFD346843F40A21A9338E6E /* Frameworks */,
+				4346FF981D2D3FC2A8B4A3FCC133A8CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C4B2C573F49BC75532CD66E2093889 /* PBXTargetDependency */,
+			);
+			name = "Pods-YFLoginModule_Example";
+			productName = Pods_YFLoginModule_Example;
+			productReference = 8AC3EF5D4A49FDAF684FB34C0480EEFB /* Pods-YFLoginModule_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		846BEF9B46BFCE9B397657F7D479D770 /* YFLoginModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4905BDF19528C5F370CDE313BE591FD9 /* Build configuration list for PBXNativeTarget "YFLoginModule" */;
+			buildPhases = (
+				C8E8082BC0E6C372C699381E4E937B41 /* Headers */,
+				79D67A0722C22CD389C80D71603596A7 /* Sources */,
+				C76FE5391784850BC1FB1B842D6C513F /* Frameworks */,
+				6A9E04685FB8E20158AB1E11B69F78A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D580C372D023AFF8B123D43B936DAACD /* PBXTargetDependency */,
+			);
+			name = YFLoginModule;
+			productName = YFLoginModule;
+			productReference = 07ED4EADEF10CB09E9086B7016704232 /* YFLoginModule */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9066F52DEAE43D7F947CC38D162349B /* YFLoginModule-YFLoginModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D5DE346B25284BD629C3720CCF0A16 /* Build configuration list for PBXNativeTarget "YFLoginModule-YFLoginModule" */;
+			buildPhases = (
+				98BAC30DFECA3DECA4DACCDE36804F3C /* Sources */,
+				AB2F4992B39CE21ECFAC55C447E6494B /* Frameworks */,
+				2D72053F0AE571109187B76C220BC5F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YFLoginModule-YFLoginModule";
+			productName = YFLoginModule;
+			productReference = F4A6ED3B5C9B1AE61DF0CCB861271D66 /* YFLoginModule-YFLoginModule */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E813B36219A14CF1900BBF940B1C8F9E /* Pods-YFLoginModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E7AEDAB1B2B643943FB04F2C3565F8F /* Build configuration list for PBXNativeTarget "Pods-YFLoginModule_Tests" */;
+			buildPhases = (
+				A1AE9F16741E7261E0FC8951D922FC28 /* Headers */,
+				4992C499DFE44AA6D99CAF8744C6008E /* Sources */,
+				7CA08E5D0870A7998D9C29FD207887F6 /* Frameworks */,
+				D35020341479E9CA14C38D947A4C57C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08D69B6613EE043AE313BFAAADC3A9B /* PBXTargetDependency */,
+			);
+			name = "Pods-YFLoginModule_Tests";
+			productName = Pods_YFLoginModule_Tests;
+			productReference = 3947CD0C31EA03BF93671CBFFD23F8D7 /* Pods-YFLoginModule_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B828851FEBEA31FC47CB820CDFBAA1C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A47DA6FCF929E4AD997386C8E28FEF7 /* Pods-YFLoginModule_Example */,
+				E813B36219A14CF1900BBF940B1C8F9E /* Pods-YFLoginModule_Tests */,
+				846BEF9B46BFCE9B397657F7D479D770 /* YFLoginModule */,
+				D9066F52DEAE43D7F947CC38D162349B /* YFLoginModule-YFLoginModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D72053F0AE571109187B76C220BC5F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B97DEEE1219D29D459AD7752425BDD /* LoginViewController.xib in Resources */,
+				E1D47E5C751AD53CD9B568CE56BAD0C5 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4346FF981D2D3FC2A8B4A3FCC133A8CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A9E04685FB8E20158AB1E11B69F78A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89A7B39CCB2CCA79F4A9728200FCBB2 /* YFLoginModule-YFLoginModule in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35020341479E9CA14C38D947A4C57C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4992C499DFE44AA6D99CAF8744C6008E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC295703E84FC4A85A5AFE8476717703 /* Pods-YFLoginModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D67A0722C22CD389C80D71603596A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6842126940EE3F3E9ACCC8F3BA61411F /* LoginViewController.m in Sources */,
+				3AC0E31B28BF17820E090D5F1FD701B1 /* PrepareViewController.m in Sources */,
+				56E846F801ECA34CAD832A504071B763 /* Tools.m in Sources */,
+				2B5A8227D5EC7DB95BE00CE39180E13C /* YFLoginModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BAC30DFECA3DECA4DACCDE36804F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2C3DEA88A12F279DEF127956017064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA43A60665154243365CEF46242FD20A /* Pods-YFLoginModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C4B2C573F49BC75532CD66E2093889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YFLoginModule;
+			target = 846BEF9B46BFCE9B397657F7D479D770 /* YFLoginModule */;
+			targetProxy = BB2DB97E8F4EE1FE32DA9B77AA653459 /* PBXContainerItemProxy */;
+		};
+		B08D69B6613EE043AE313BFAAADC3A9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YFLoginModule_Example";
+			target = 7A47DA6FCF929E4AD997386C8E28FEF7 /* Pods-YFLoginModule_Example */;
+			targetProxy = C03E6E0886E32D161044D17C0D2EC312 /* PBXContainerItemProxy */;
+		};
+		D580C372D023AFF8B123D43B936DAACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YFLoginModule-YFLoginModule";
+			target = D9066F52DEAE43D7F947CC38D162349B /* YFLoginModule-YFLoginModule */;
+			targetProxy = E3B4E7920D884CC4194009C9579B06C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CB5A63CB0D96BD6D0AADD42A698D55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AA6D6D6FB0565F5C1AB2E34E53FBC1 /* Pods-YFLoginModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YFLoginModule_Example/Pods-YFLoginModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFLoginModule_Example/Pods-YFLoginModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DCF32CE354BBBF31C3ED36BF391F7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F150217D003FFE9EFA47E012F2CC59 /* YFLoginModule.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YFLoginModule";
+				IBSC_MODULE = YFLoginModule;
+				INFOPLIST_FILE = "Target Support Files/YFLoginModule/ResourceBundle-YFLoginModule-YFLoginModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = YFLoginModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		348688C1D32530114F981A893E61160D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D8AF4F353810CE7045E6701119416C /* Pods-YFLoginModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YFLoginModule_Tests/Pods-YFLoginModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFLoginModule_Tests/Pods-YFLoginModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0FACE2FB7FB0C63C03DE1B4387BF61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B23F485AD9A08211DD30013BD99B240 /* Pods-YFLoginModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YFLoginModule_Tests/Pods-YFLoginModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFLoginModule_Tests/Pods-YFLoginModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B57CD5E51D2A231EDE200F1788F90AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C843367C626A30EA8CDDF51176DA222 /* YFLoginModule.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YFLoginModule";
+				IBSC_MODULE = YFLoginModule;
+				INFOPLIST_FILE = "Target Support Files/YFLoginModule/ResourceBundle-YFLoginModule-YFLoginModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = YFLoginModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B61FF36EC4BA93DECD410BFD61645105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3261F55EF4EBA77B77624A17DB8FD735 /* Pods-YFLoginModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YFLoginModule_Example/Pods-YFLoginModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YFLoginModule_Example/Pods-YFLoginModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D81AD4FCD17892D923E9059FFA7A9486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F150217D003FFE9EFA47E012F2CC59 /* YFLoginModule.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YFLoginModule/YFLoginModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YFLoginModule/YFLoginModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YFLoginModule/YFLoginModule.modulemap";
+				PRODUCT_MODULE_NAME = YFLoginModule;
+				PRODUCT_NAME = YFLoginModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F123C5CF84225DF97495A547624D7853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C843367C626A30EA8CDDF51176DA222 /* YFLoginModule.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YFLoginModule/YFLoginModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YFLoginModule/YFLoginModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YFLoginModule/YFLoginModule.modulemap";
+				PRODUCT_MODULE_NAME = YFLoginModule;
+				PRODUCT_NAME = YFLoginModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E7AEDAB1B2B643943FB04F2C3565F8F /* Build configuration list for PBXNativeTarget "Pods-YFLoginModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FACE2FB7FB0C63C03DE1B4387BF61E /* Debug */,
+				348688C1D32530114F981A893E61160D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4905BDF19528C5F370CDE313BE591FD9 /* Build configuration list for PBXNativeTarget "YFLoginModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81AD4FCD17892D923E9059FFA7A9486 /* Debug */,
+				F123C5CF84225DF97495A547624D7853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823FFE9D7D89E990D294D428846DA1DF /* Build configuration list for PBXNativeTarget "Pods-YFLoginModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61FF36EC4BA93DECD410BFD61645105 /* Debug */,
+				0CB5A63CB0D96BD6D0AADD42A698D55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D5DE346B25284BD629C3720CCF0A16 /* Build configuration list for PBXNativeTarget "YFLoginModule-YFLoginModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCF32CE354BBBF31C3ED36BF391F7AC /* Debug */,
+				B57CD5E51D2A231EDE200F1788F90AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

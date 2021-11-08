@@ -1,0 +1,16 @@
+PODS:
+  - YFLoginModule (0.1.0)
+
+DEPENDENCIES:
+  - YFLoginModule (from `../`)
+
+EXTERNAL SOURCES:
+  YFLoginModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YFLoginModule: 3ca4462bcff57190490abcf4dbef5d3ac05c8b91
+
+PODFILE CHECKSUM: 8e8644dc18fcb3ecdeef53467e1095e4c80d0774
+
+COCOAPODS: 1.11.2

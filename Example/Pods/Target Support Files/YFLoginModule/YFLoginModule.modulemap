@@ -1,0 +1,6 @@
+framework module YFLoginModule {
+  umbrella header "YFLoginModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

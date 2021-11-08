@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YFLoginModule_Example' do
+  pod 'YFLoginModule', :path => '../'
+
+  target 'YFLoginModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
